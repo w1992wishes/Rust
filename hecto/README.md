@@ -12,4 +12,5 @@ cargo add crossterm
 
 ### 2.Error Handling
 
+2_crossterm_error_handle
 
