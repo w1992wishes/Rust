@@ -6,4 +6,11 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+# Crossterm 是一个用于构建跨平台控制台应用程序的 Rust 库。
+# 它提供了一组 API，允许开发者在不同操作系统（包括 Windows、Linux 和 macOS）上以统一的方式控制控制台（终端）输入和输出。
+# Crossterm 旨在简化对控制台的操作，如打印带颜色的文本、读取用户输入、操纵光标位置、处理事件等。
 crossterm = "0.27.0"
+
+# Clippy 是 Rust 社区中最受欢迎的 Linter 之一，它帮助开发者发现代码中的潜在问题、提高代码质量，并推荐一些更佳的实践。
+# Clippy 提供了一组丰富的 lint 规则，用于检查 Rust 代码中的常见错误、不良习惯和可优化的模式。
+# 它可以帮助开发者写出更加健壮、可维护和高效的代码。
